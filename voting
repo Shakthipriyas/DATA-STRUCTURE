@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("enter ur age:");
+scanf("%d",&a);
+if(a>18)
+{
+printf("eligible to vote");
+}
+else
+{
+printf("not eligible to vote");
+}
+getch();
+}
