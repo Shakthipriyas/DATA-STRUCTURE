@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[200],n,i,temp=a[0];
+clrscr();
+{
+printf("Enter te size of the element: ");
+scanf("%d",&n);
+printf("Enter the elements: ");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=1;i<n;i++)
+{
+if(temp<a[i])
+{
+temp=a[i];
+}
+}
+printf("The greatest number is: ");
+for(i=0;i<n;i++)
+{
+printf("%d ",temp)
+}
+getch();
+}
